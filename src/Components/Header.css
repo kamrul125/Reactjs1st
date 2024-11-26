@@ -1,0 +1,140 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  .brandname{
+    background-color: #FFF2F3;
+    margin-bottom: 100px;
+  }
+  .header {
+    width: 170vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    position: relative;
+    left: 80px;
+   
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .login-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+    margin-right: 10px;
+   
+  
+  }
+  
+  .join-btn {
+    background-color: #7dbd4f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .main-section {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+  }
+  
+  .text-content {
+    width: 580px;
+    height: 390px;
+  }
+  
+  .text-content h5 {
+    font-size: 1.5rem;
+    color: #8dbf6a;
+    margin-bottom: 40px;
+  }
+  
+  .text-content h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #333;
+  }
+  
+  .text-content p {
+    margin: 30px 0;
+    font-size: 1.1rem;
+    line-height: 0.3;
+  }
+  
+  .cta-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .join-now {
+    background-color: #7dbd4f;
+    color: white;
+
+  }
+  
+  .learn-more {
+    background-color: antiquewhite;
+    border: 2px solid #7dbd4f;
+    color: #7dbd4f;
+   
+  }
+  
+  .image-section .student-img {
+    width: 100%;
+    height: 660px;
+    border-radius: 15px;
+   
+  }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+  /* Adjust header for smaller screens */
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  
+    
+  }
+
+  .main-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  

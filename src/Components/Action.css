@@ -1,0 +1,64 @@
+.live-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 100px;
+  }
+  
+  .live-action-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .live-action-text {
+    max-width: 500px;
+  }
+  
+  .live-action-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    line-height: 3.3rem;
+  }
+  
+  .line {
+    width: 90px;
+    height: 6px;
+    background-color: #e74c3c;
+    margin: 1rem 0;
+  }
+  
+  .live-action-text p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .learn-morethree {
+    font-size: 1rem;
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .live-action-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .live-action-image,
+    .live-action-text {
+      max-width: 100%;
+    }
+  }
+  
