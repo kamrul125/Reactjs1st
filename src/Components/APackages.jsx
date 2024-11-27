@@ -2,6 +2,7 @@ import React from 'react'
 import { FaAlignJustify } from "react-icons/fa";
 import icon from '../assets/images/fixed-width sec-.png'
 import Expert from '../assets/images/expert.png'
+import './Components/APackages.css'
 
 const APackages = () => {
   return (
